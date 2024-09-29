@@ -1,36 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Name Chenyu Li
+Project Description
+This project is a Fitness Booking System built using Next.js and MongoDB. The system allows users (trainees) to view available fitness trainers and their respective courses, book training sessions at specific time slots, and manage their bookings. Trainers have different areas of expertise, and each trainer’s schedule is independently managed. Bookings are stored in MongoDB to ensure persistence, meaning users can exit or refresh the page and still see their bookings.
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Features
+View Trainers and Courses: A homepage displaying a list of trainers and their expertise as well as available courses.
+Search Functionality: Users can search trainers or courses by name.
+Trainer-Specific Booking: Users can select a trainer and book a training session from available time slots.
+Persistent Bookings: Bookings are saved in MongoDB, so even if the page is refreshed or exited, booked time slots remain unavailable until canceled.
+Real-time Booking Management: Users can view, confirm, and cancel bookings in real-time, with availability status updates.
+Technologies Used
+Frontend: Next.js (React framework)
+Backend: Next.js API Routes
+Database: MongoDB (No Mongoose)
+CSS Styling: Custom CSS and react-calendar for date and time slot selection.
